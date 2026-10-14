@@ -1,0 +1,28 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# CrewAI
+.crewai/
+report.md
+
+# Operating System Files
+.DS_Store
+Thumbs.db
